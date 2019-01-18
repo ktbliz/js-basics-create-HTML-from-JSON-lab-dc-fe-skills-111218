@@ -91,15 +91,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
  
  
- for (let i = 0; i < movies.Titanic.cast.length; i++) {
-   for (key in movies.Titanic.cast[i]) {
-     console.log(movies.Titanic.cast[i][key])
+ for (let i = 0; i < movies["Terminator 2"].cast.length; i++) {
+   for (key in movies["Terminator 2"].cast[i]) {
+     console.log(movies["Terminator 2"].cast[i][key])
    }} 
 
 
- for (let i = 0; i < movies.Titanic.cast.length; i++) {
-     let JSONrole = movies.Titanic.cast[i]["role"];
-     let JSONactor = movies.Titanic.cast[i]["actor"];
+ for (let i = 0; i < movies["Terminator 2"].cast.length; i++) {
+     let JSONrole = movies["Terminator 2"].cast[i]["role"];
+     let JSONactor = movies["Terminator 2"].cast[i]["actor"];
      let output = JSONrole + ": " + JSONactor + "<br><br>";
      document.getElementById("cast").innerHTML += output;
    } 
