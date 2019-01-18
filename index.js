@@ -51,7 +51,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
  document.getElementById("description").innerHTML = movies.Titanic.description;
  
 
- 
+ document.getElementById("cast").innerHTML = "";
+ document.getElementById("reviews").innerHTML = "";
  
  for (let i = 0; i < movies.Titanic.cast.length; i++) {
    for (key in movies.Titanic.cast[i]) {
@@ -89,7 +90,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
  document.getElementById("description").innerHTML = movies["Terminator 2"].description;
  
 
- 
+ document.getElementById("cast").innerHTML = "";
+ document.getElementById("reviews").innerHTML = "";
  
  for (let i = 0; i < movies["Terminator 2"].cast.length; i++) {
    for (key in movies["Terminator 2"].cast[i]) {
