@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
  for (let i = 0; i < movies.Titanic.cast.length; i++) {
      let JSONrole = movies.Titanic.cast[i]["role"];
      let JSONactor = movies.Titanic.cast[i]["actor"];
-     let output = JSONrole + ": " + JSONactor + "<br>";
+     let output = JSONrole + ": " + JSONactor + "<br><br>";
      document.getElementById("cast").innerHTML += output;
    } 
 
