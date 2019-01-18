@@ -23,32 +23,17 @@ document.addEventListener("DOMContentLoaded", (e) => {
      let output = JSONrole + ": " + JSONactor + "<br>";
      document.getElementById("cast").innerHTML += output;
    } 
-   
-/*
 
-for (let i = 0; i < movies.Titanic.cast.length; i++) {
-   for (key in movies.Titanic.cast[i]) {
-     if (key = "role") {
-      let JSONrole = movies.Titanic.cast[i]["role"];}
-    else if (key = "actor") {
-      let JSONactor = movies.Titanic.cast[i]["actor"];}
-    let output = JSONrole + ": " + JSONactor + "<br>";
+
+ for (let i = 0; i < movies.Titanic.cast.length; i++) {
+     let JSONrole = movies.Titanic.cast[i]["role"];
+     let JSONactor = movies.Titanic.cast[i]["actor"];
+     let output = JSONrole + ": " + JSONactor + "<br>";
      document.getElementById("cast").innerHTML += output;
-   }} 
+   }
 
 
-     if (movies.Titanic.cast[i].key = "role") {
-       role = movies.Titanic.cast[i][key];
-     } else if (movies.Titanic.cast[i].key = "actor") {
-       actor = movies.Titanic.cast[i][key];
-   } output += role + actor; 
- }
- 
-*/
- 
-document.getElementById("cast").appendChild
 
- document.getElementById("reviews").innerHTML = "reviews"
  
  })
  
