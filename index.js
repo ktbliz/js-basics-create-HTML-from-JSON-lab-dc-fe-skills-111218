@@ -105,9 +105,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
    } 
 
 
- for (let i = 0; i < movies.Titanic.reviews.length; i++) {
-     let JSONusername = movies.Titanic.reviews[i]["username"];
-     let JSONcontent = movies.Titanic.reviews[i]["content"];
+ for (let i = 0; i < movies["Terminator 2"].reviews.length; i++) {
+     let JSONusername = movies["Terminator 2"].reviews[i]["username"];
+     let JSONcontent = movies["Terminator 2"].reviews[i]["content"];
      let output = JSONusername + ": " + JSONcontent + "<br><br>";
      document.getElementById("reviews").innerHTML += output;
    }
