@@ -26,10 +26,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 
  for (let i = 0; i < movies.Titanic.reviews.length; i++) {
-     let JSONrole = movies.Titanic.cast[i]["role"];
-     let JSONactor = movies.Titanic.cast[i]["actor"];
-     let output = JSONrole + ": " + JSONactor + "<br>";
-     document.getElementById("cast").innerHTML += output;
+     let JSONusername = movies.Titanic.cast[i]["username"];
+     let JSONcontent = movies.Titanic.cast[i]["content"];
+     let output = JSONusername + ": " + JSONcontent + "<br>";
+     document.getElementById("reviews").innerHTML += output;
    }
 
 
