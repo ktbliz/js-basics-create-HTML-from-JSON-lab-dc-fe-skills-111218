@@ -81,12 +81,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     
     document.getElementById("title").innerHTML = movies["Terminator 2"].title;
- document.getElementById("director").innerHTML = movies.Titanic.director;
- document.getElementById("genre").innerHTML = movies.Titanic.genre;
- document.getElementById("filmRating").innerHTML = movies.Titanic.filmRating;
- document.getElementById("poster").setAttribute("src", movies.Titanic.poster);
- document.getElementById("audienceScore").innerHTML = movies.Titanic.audienceScore;
- document.getElementById("description").innerHTML = movies.Titanic.description;
+ document.getElementById("director").innerHTML = movies["Terminator 2"].director;
+ document.getElementById("genre").innerHTML = movies["Terminator 2"].genre;
+ document.getElementById("filmRating").innerHTML = movies["Terminator 2"].filmRating;
+ document.getElementById("poster").setAttribute("src", movies["Terminator 2"].poster);
+ document.getElementById("audienceScore").innerHTML = movies["Terminator 2"].audienceScore;
+ document.getElementById("description").innerHTML = movies["Terminator 2"].description;
  
 
  
