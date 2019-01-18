@@ -36,7 +36,7 @@ for (let i = 0; i < movies.Titanic.cast.length; i++) {
      document.getElementById("cast").innerHTML += output;
    }} 
 
-/*
+
      if (movies.Titanic.cast[i].key = "role") {
        role = movies.Titanic.cast[i][key];
      } else if (movies.Titanic.cast[i].key = "actor") {
